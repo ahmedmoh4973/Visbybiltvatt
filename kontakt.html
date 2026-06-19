@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friesbox Gotland - Kontakt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/kontakt.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="images/IMG-20260526-WA0007.jpg" alt="Friesbox logo" class="nav-logo"></a></li>
+                <li><a href="meny.html">Meny</a></li>
+                <li><a href="hitta-oss.html">Hitta oss</a></li>
+                <li><a href="om-oss.html">Om oss</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h1>Kontakt</h1>
+                <p>Här kan ni se kontaktuppgifter och skicka till oss fråga om ni har frågor.</p>
+            </div>
+        </section>
+
+        <section>
+                <h2>Kontaktuppgifter</h2>
+                <p><strong>E-post:</strong> info@friesbox.se</p>
+                <p><strong>Telefon:</strong> 0498-123 456</p>
+                <p><strong>Plats:</strong> Vibble Kneippbygatan 8, 622 59 Visby</p>
+
+                    <form id="contactForm" action="#" method="post">
+                    <h2>Skicka meddelande</h2>
+
+                    <label for="name">Namn</label>
+                    <input id="name" name="name" type="text" autocomplete="name" required>
+
+                    <label for="email">E-post</label>
+                    <input id="email" name="email" type="email" autocomplete="email" required>
+
+                    <label for="message">Meddelande</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button class="button primary-button" type="submit">Skicka</button>
+                </form>
+        </section>
+    </main>
+
+    <footer>
+            <p>@ 2026 Friesbox Gotland</p>
+    </footer>
+</body>
+</html>
